@@ -1,5 +1,8 @@
 # HEARTBEAT.md
 
-# Keep this file empty (or with only comments) to skip heartbeat API calls.
-
-# Add tasks below when you want the agent to check something periodically.
+# ตรวจสอบการออกกำลังกาย (6:30-7:00 น.)
+- ตรวจสอบว่าถามวันนี้หรือยัง (ดูจาก last-workout-ask.txt)
+- ถ้ายังไม่ได้ถาม และเป็นเวลา 06:30-07:00 และไม่ใช่ตอนดึก (23:00-08:00):
+  - ถามว่า "วันนี้จะออกกำลังกายไหม?"
+  - ถ้าตอบ "ใช่" → แสดงแผนออกกำลังวันนี้
+  - บันทึกวันที่ลง last-workout-ask.txt
