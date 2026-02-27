@@ -14,5 +14,9 @@ else
     
     # Push to remote
     git push origin main
+    
+    # Send notification
+    osascript -e 'display notification "✅ GitHub Sync เสร็จแล้ว!" with title "OpenClaw Backup"'
+    
     echo "Synced to GitHub at $(date)"
 fi
