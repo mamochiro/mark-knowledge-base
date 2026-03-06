@@ -31,6 +31,12 @@ Things like:
 - Default speaker: Kitchen HomePod
 ```
 
+## Telegram Configuration
+
+- **Bot Token:** `8645175941:AAEEQcyGrBkNlbfAM4psiwrrnLjVslp3gN4`
+- **User ID:** `8645175941`
+- **Bot Username:** (we'll need to check what BotFather set)
+
 ## Why Separate?
 
 Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
